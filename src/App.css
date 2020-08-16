@@ -1,38 +1,115 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  justify-content: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:#F5F5F5;
+  min-height: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: gray;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+}
+.header-title{
+  font-size: 22px;
+  font-weight: 800;
+}
+.App-headerImg {
+  height: 60px;
+  width: 60px;
+  float: left;
+  padding: 4px
+}
+
+.App-profile {
+  float: right;
+  padding-right: 10px;
+  font-size: 14px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.app-sub-container{
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.marginTop20{
+ margin-top: 20px;
+}
+.text-align-left{
+  text-align: left;
+}
+
+.feature-container{
+  width: 30%;
+  margin: auto;
+}
+.feature-sub-container{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+.feature-sub-container div:first-child{
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+  margin: 4px 0 5px 0;
+  font-size: 14px;
+}
+
+.feature-sub-container div:nth-of-type(2){
+  width: 60%;
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
+}
+
+.profileImg {
+  width: 140px;
+  float: left;
+  padding: 4px
+}
+
+.profile-container {
+  width:50%;
+  margin: auto;
+}
+
+.profile-sub-container{
+  justify-content: space-around;
+}
+
+.vertical-align-top {
+  vertical-align: top;
+}
+
+.profile-sub-container div:first-child{
+  width: 15%;
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+  margin: 4px 0 5px 0;
+  font-size: 14px;
+}
+
+.profile-sub-container div:nth-of-type(2){
+  width: 29%;
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
 }
