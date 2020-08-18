@@ -26,16 +26,19 @@ class App extends Component {
           <div className="App-header">
             <Header headerData={this.state.headerData} profile={this.state.profile} />
           </div>
-            <Route exact path="/">
-              <EarthquakeList featureData={this.state.featureData} />
-            </Route>
-            <Route path="/profile">
-              <Profile profile={this.state.profile} />
-            </Route>
-            <Route path="/feature/:featureId" render={(props) =>
-              <Feature featureId={props.match.params.featureId} featureData={this.state.featureData} />
-            }>
-            </Route>
+          <Route exact path="/">
+            <EarthquakeList featureData={this.state.featureData} />
+          </Route>
+          <Route path="/profile">
+            <Profile profile={this.state.profile} />
+          </Route>
+          <Route path="/feature/:featureId" render={(props) =>
+            <Feature featureId={props.match.params.featureId} featureData={this.state.featureData} />
+          }>
+          </Route>
+          <div className="footer">
+            <p>*https://www.clipartmax.com/middle/m2i8m2K9H7d3G6K9_realtor-com-logo-vector/</p>
+          </div>
         </div>
       </Router>
     );

@@ -113,3 +113,14 @@
   text-align: left;
   font-size: 14px;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F5F5F5;
+  color: gray;
+  text-align: right;
+  font-size: 8px;
+}

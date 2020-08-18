@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import { Link } from "react-router-dom";
+import logo from '../realtor_logo.png';
 
 
 export default class Header extends Component {
@@ -14,7 +15,7 @@ export default class Header extends Component {
                     <React.Fragment>
                         <div>
                             <Link to="/">
-                                <img src={site.heroImage} className="App-headerImg" alt="Realtor-logo" />
+                                <img src={logo} className="App-headerImg" alt="Realtor-logo" />
                             </Link>
                         </div>
                         <div>
