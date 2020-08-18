@@ -26,6 +26,7 @@ This is a simple app that shows a homepage with a list of earthquakes. It has a 
 <li>const</li>
 <li>Used flex in the CSS</li> 
 <li>Used CSS box model</li>
+  <li>Jest Unit testcases</li>
 <li>Also tried with some pseudo classes in CSS</li>
 <li>Want to fetch but data is not available in js with constant. Don't want to modify data.js.</li>
 <li>Want to use the redux for state management.</li>
